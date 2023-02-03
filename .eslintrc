@@ -1,0 +1,32 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"root": true,
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:import/recommended",
+		"plugin:import/typescript",
+		"prettier"
+	],
+	"rules": {
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error"
+	},
+	"plugins": ["@typescript-eslint", "import", "simple-import-sort"],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": false
+		},
+		"sourceType": "module",
+		"project": ["./tsconfig.json", "./src/admin/tsconfig.json"]
+	},
+	"env": {
+		"commonjs": true,
+		"es6": true,
+		"node": true,
+		"browser": false
+	},
+	"globals": {
+		"strapi": true
+	}
+}
