@@ -14,14 +14,19 @@
 		"prettier:fix": "prettier --write \"**/*.{ts,tsx}\""
 	},
 	"dependencies": {
+		"@offset-dev/strapi-calendar": "^0.0.10",
 		"@retikolo/drag-drop-content-types": "^1.3.4",
 		"@strapi/plugin-color-picker": "^4.6.0",
 		"@strapi/plugin-i18n": "4.6.0",
 		"@strapi/plugin-users-permissions": "4.6.0",
 		"@strapi/strapi": "4.6.0",
 		"pg": "8.6.0",
+		"strapi-plugin-country-select": "^1.0.0",
 		"strapi-plugin-duplicate-button": "^1.1.7",
-		"strapi-plugin-multi-select": "^1.1.0"
+		"strapi-plugin-graphs-builder": "^1.0.0",
+		"strapi-plugin-local-image-sharp": "^1.4.0",
+		"strapi-plugin-multi-select": "^1.1.0",
+		"strapi-plugin-ratings": "^1.1.9"
 	},
 	"author": {
 		"name": "Jewish Point"
